@@ -553,3 +553,64 @@ svg::after{
   margin-top: 5%;
 }
 
+/* smt */
+.smt{
+  text-align: center;
+  background-color: #EFF0F2;
+  padding: 5%;
+}
+.smt-all{
+  width: 60%;
+  margin: 0 auto;
+}
+.smt-all h1{
+  padding-bottom: 5%;
+}
+
+/* people */
+.people{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.people-all{
+  text-align: center;
+  padding-top: 5%;
+}
+.people-all h1{
+  margin-bottom: 5%;
+}
+
+.people-item{
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: repeat(3,auto);
+}
+.people img{
+  width: 100%;
+  height: 100%;
+}
+.people{
+  display: grid;
+  grid-template-rows: repeat(3,auto);
+  margin-bottom: 10%;
+}
+
+/* partner  */
+.partner-all{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.partner-item{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-gap:5%;
+  margin-top: 5%;
+}
+
+.partner-item img{
+  height: 100%;
+  width: 100%;
+}
